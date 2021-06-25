@@ -13,14 +13,14 @@ const renderer = new THREE.WebGLRenderer({canvas:document.querySelector('canvas#
 renderer.setSize(innerWidth , innerHeight);
 
 //Geometry
-const boxgeo = new THREE.BoxGeometry(10,10,10)
+const Geometry = new THREE.TorusKnotGeometry( 10, 3, 100, 16 );
 
 //Materials
-const boxmat = new THREE.MeshPhysicalMaterial({color :0xffffff , metalness : 0 , roughness : 0})
+const Material = new THREE.MeshPhysicalMaterial({color :0xffffff , metalness : 0 , roughness : 0})
 
 //Mesh
-const box = new THREE.Mesh(boxgeo , boxmat)
-scene.add(box)
+const box = new THREE.Mesh(Geometry , Material)
+scene.add(box);
 
 /*----
 Lighting
@@ -66,7 +66,7 @@ function Animate(){
   renderer.render(scene , Camera)
 
   box.rotation.y += 0.01;
-  box.rotation.x += 0.01;
+  //box.rotation.x += 0.01;
   
   requestAnimationFrame(Animate);
 }
