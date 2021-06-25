@@ -1,5 +1,7 @@
-# ThreeJSStarterPack
+# ThreeJS-StarterPack
 A Boilerplate Project Setup for easy starting to create Awesome Websites with three.js
+
+
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
 Run this followed commands:
