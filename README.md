@@ -1,4 +1,4 @@
-# ThreeJS-StarterPack
+# threejs-vite-starterpack
 A Boilerplate Project Setup for easy starting to create Awesome Websites with three.js
 
 
