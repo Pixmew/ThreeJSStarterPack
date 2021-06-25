@@ -13,6 +13,6 @@ npm install
 # Run the local server at localhost:3000
 npm run dev
 
-# Build for production in the dist/ directory
+# Build for production in the src/dist/ directory
 npm run build
 ```
